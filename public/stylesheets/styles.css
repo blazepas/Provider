@@ -1,0 +1,146 @@
+body{
+	background-color: grey;
+}
+
+.main_window{
+	margin: 3% 20% 0% 20%;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	background-color: whitesmoke;
+
+	-webkit-box-shadow: 0px 2px 15px 9px #000000; 
+	box-shadow: 0px 2px 15px 9px #000000;
+}
+
+.front-page-box{
+	height: 115%;
+  	display: grid;
+  	grid-template-areas: "a a a";
+  	grid-gap: 3px;
+  	grid-auto-columns: 33%;
+}
+
+#box-container{	
+	height: 85%;
+	padding: 10% 10% 15% 10%;
+	background-color: pink;
+	text-align: center;
+}
+
+#contact-box{
+	height: 100%;
+	display: grid;
+	grid-template-areas: "a a";
+	grid-gap: 5px;
+	grid-auto-columns: 33%;
+}
+
+#offer{
+   background-color: silver; 
+}
+
+#iconss, #picture{
+    padding-top: 7%;
+    padding-left: 25%;
+}
+
+#phone{
+    padding-left: 65%;
+
+}
+
+#greetings{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#short_desc{
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+
+#quotation{
+	border: 5px solid #c0c0c0;
+	border-radius: 15px;
+	background: #C0C0C0;
+	background: -moz-linear-gradient(left, #C0C0C0 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(left, #C0C0C0 0%, #FFFFFF 100%);
+	background: linear-gradient(to right, #C0C0C0 0%, #FFFFFF 100%);
+	
+	font-size: 10px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-decoration: rgb(68, 68, 68);
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color:#777777;
+	font-family: 'Tangerine', cursive;
+	font-weight: bold;
+	line-height: 41px;
+	padding-left: 100px;
+	padding-top: 5px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.navbar {
+	padding-bottom: 5%;
+	font: rgb(48, 48, 48);
+}
+
+.navbar-fixed-top{
+    font-size: large;
+}
+
+.navbar-right li {
+	display: inline-block;
+}
+
+.navbar-nav {
+	position: absolute;
+	margin-left: 380px;
+	background-color: rgba(0,0,0,0.5);
+	border: 5px;	
+	border-color: rgb(48, 48, 48);
+	padding-right: 2%;
+}
+
+.map-info {
+padding-right: 50%;	
+}
+
+.map-info .left {
+	border:5px solid #2888e2;
+}
+
+.content-padding, a{
+	text-align: right;
+	background-color: rgb(70, 69, 69);
+	float: left;
+	color: #839092;
+}
+a:hover{
+	color: white;
+}
+
+#footer-content{
+	margin: 0% 20% 5% 20%;
+	color: red;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background: #130E05;
+	background: -moz-linear-gradient(left, #130E05 0%, #585858 50%, #130E05 100%);
+	background: -webkit-linear-gradient(left, #130E05 0%, #585858 50%, #130E05 100%);
+	background: linear-gradient(to right, #130E05 0%, #585858 50%, #130E05 100%);
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+
+	-webkit-box-shadow: 0px 10px 15px 9px #000000; 
+	box-shadow: 0px 10px 15px 9px #000000;
+}

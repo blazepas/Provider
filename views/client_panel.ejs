@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+        <% include partials/head %>
+<body>
+        <div class='main_window'>
+                <% include partials/header %>
+                <% include partials/scripts %>
+<div id="phone">
+    <img src="/images/<%= office[3].picture %>">
+</div>
+
+<div id="parentElement">
+    <input type="button" onclick="location.href='db'" value="Wyświetl całą zawartość bazy">
+    <span id="childElement"></span>
+ </div>
+ <script>
+        var html='';
+        html +="<body>";
+        html += "<h3>Zarządzaj wpisami w bazie</h3>";
+        html += "<form action='/takeElement'  method='post' name='form1'>";
+        html += "<p><input type='text' name='name'>";
+        html += "<input type='submit' value='Szukaj w bazie'>";
+        html += "</form>";
+        html += "<form action='/rmFromDB'  method='post' name='form1'>";
+        html += "<p><input type='text' name='name'>";
+        html += "<input type='submit' value='Kasuj z bazy'>";
+        html += "</form>";
+        html += "<form action='/addToDB'  method='post'>";
+        html += "<p><input type='text' name='inteamNew2'>";
+        html += "<input type='submit' value='Dodaj do DB'>";
+        html += "</form>";
+        document.getElementById("childElement").innerHTML = html;
+ </script>
+
+<h3>Dodaj do JSON</h3>
+<form action='/add' method='post'>
+  <input type='text' name='inteamNew'>
+  <input type='submit' value='Dodaj wpis JSON'>
+</form>
+<p>
+
+<div id='jsonListAll'>
+  <h5>Listuj zawartość JSON: </h5>
+  <% for(var i = 0; i<item.length; i++) { %>
+  <li> <%= item[i].desc %> </li>
+<% } %>
+</div>
+
+</body>

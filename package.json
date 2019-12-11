@@ -1,0 +1,33 @@
+{
+  "name": "provider",
+  "version": "1.0.0",
+  "description": "Provider App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "server": "live-server"
+  },
+  "author": "Blazej Szczypka",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^0.1.3",
+    "@okta/okta-sdk-nodejs": "^1.1.0",
+    "body-parser": "^1.19.0",
+    "browserify": "^16.5.0",
+    "circular-json": "^0.5.9",
+    "consolidate": "^0.15.1",
+    "ejs": "^2.7.2",
+    "express-session": "^1.15.6",
+    "jquery": "^3.4.1",
+    "jsrender": "^1.0.5",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "pg": "12",
+    "pug": "^2.0.4",
+    "stringify": "^5.2.0"
+  },
+  "devDependencies": {
+    "pg-promise": "^10.2.1"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+        <% include partials/head %>
+<body>
+        <div class='main_window'>
+                <% include partials/header %>
+                <% include partials/scripts %>
+
+                <div class="slider">
+                        <% for(var i=0; i< office.length-2; i++) { %>
+                            <div><img src="/images/<%= office[i].main_pictures[i] %>" class="img-responsive" width="807" height="338" /></div>
+                            <% } %>  
+                </div>
+
+                <script type="text/javascript">
+                $('.slider').bbslider({
+                    auto:  true,
+                    timer: 1000,
+                    controls: true,
+                    loop:  true,
+                    pauseOnHit: false
+                  });
+                  </script>
+    
+                <div id='quotation'>
+                    <h1>"Jednym z najistotniejszych sposobów na to, aby osiagnac sukces jest skoncentrowanie sie na tym, co umiesz robic najlepiej."
+                    </h1>
+                </div>
+                    
+                <div class='front-page-box'>     
+                    <% for(var i=0; i< office.length-1; i++) { %>
+                    <div id="icons">
+                    <div id='box-container'>
+                        <img src="/images/<%= office[i].poster %>" class="img-responsive">
+                        <p><%= office[i].strength %></p>
+                    </div>
+                  </div>
+                    <% } %>                                           
+                </div>
+              
+            <div id='greetings'>  
+               <p>Witamy Państwa na stronie Kancelarii Podatkowo Prawnej PROVIDER Anna Szczypka
+               </p>
+             </div>
+        <div id='short_desc'>
+            <b>Kancelaria Podatkowo Prawna PROVIDER powstała w 1997r. Przedstawiamy ofertę firmy, która od lat służy pomocą wielu firmom w prowadzeniu działalności gospodarczej. Kancelaria Podatkowo Prawna PROVIDER zajmuje się prowadzeniem księgowości (zarówno rachunkowości, jak i księgowości uproszczonej), sporządzaniem deklaracji ZUS, prowadzeniem spraw kadrowych i płacowych, sporządzaniem deklaracji podatkowych PIT, CIT i VAT. Usługi księgowe prowadzimy rzetelnie, w oparciu o przepisy polskiego prawa podatkowego. Z nami bezpiecznie - nasze lokale są przez 24h pod ochroną profesjonalnej agencji. Zapraszając do zapoznania się z ofertą zapewniamy, że wszelkich odpowiedzi na Państwa pytania dotyczące naszych usług rachunkowych udzielimy drogą e-mailową, telefoniczną lub w trakcie bezpośredniego spotkania. Posiadamy ubezpieczenie OC z tytułu prowadzonej działalności. Pracujemy dla Ciebie nam możesz zaufać
+            </b>
+        </div>
+    </div>
+    <% include partials/footer %>
+    </body> 
+</html>

@@ -1,0 +1,36 @@
+{
+    "offices": [{
+      "title" : "Oferta",
+      "page_number" : "1",
+      "main_pictures" : ["smile_faces.jpg", "bielsko_biala_city.jpg"],
+      "description" : "Kancelaria Podatkowo Prawna Provider specjalizuje się w obsłudze małych i średnich firm w zakresie ewidencji księgowych oraz rozliczeń ZUS i płac.",
+      "poster" : "provideras.pl_wiedza.png",
+      "strength" : "Ciągle aktualizujemy naszą wiedzę w rachunkowości i posiadamy szerokie doświadczenie w rozliczaniu firm zagranicznych działających w Polsce. Zajmujemy się optymalizacją podatkową oraz doborem korzystnych form rozliczenia.",
+      "picture" : "offer_picture.jpg"
+    },
+
+    {
+    "title" : "O Nas",
+    "page_number" : "2",
+    "main_pictures" : ["smile_faces.jpg", "bielsko_biala_city.jpg"],
+    "description" : "Kancelaria Podatkowo Prawna Provider swoją ofertę kieruje do wszystkich osób, które chcą bezpiecznie prowadzić swoje interesy. Przeszło 20 letnie doświadczenie specjalistów kancelarii gwarantuje w pełni zgodną z polskimi przepisami obsługę księgową firm. Biuro rachunkowe Provider posiada wszelkie uprawnienia do prowadzenia ksiąg rachunkowych, a tym samych innych ewidencji księgowych. Usługi księgowe ubezpieczone są od sankcji wynikłych z nieprawidłowości w zakresie księgowości.",
+    "poster" : "provideras.pl_niezawodnosc.png",
+    "strength" : "Nasz zespół to utalentowani księgowi z wieloletnim doświadczeniem w księgach rachunkowych. Obsługujemy firmy również w języku angielskim.",
+    "picture" : "castle.jpg"
+  },
+  
+  {
+    "title" : "Kontakt",
+    "page_number" : "3",
+    "main_pictures" : ["smile_faces.jpg", "bielsko_biala_city.jpg"],
+    "description" : "Biuro Rachunkowe PROVIDER Sp z o. o.  Centrala Bielsko-Biała - Wejście od strony wejścia na Zamek Sułkowskich.",
+    "poster" : "provideras.pl_zaufanie.png",
+    "strength" : "Dajemy Państwu gwarancję że wszystkie powierzone nam sprawy rachunkowe będą zawsze wykonane z najwyższą starannością.",
+    "picture" : "contact_map.jpg"
+  },
+  
+  {
+    "title" : "Panel klienta",
+    "picture" : "files.jpg"
+  }]
+}
