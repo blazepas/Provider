@@ -10,13 +10,6 @@ OKTA Authentication middleware (user: XYZ<< >>pass: XYZ )
 Express Messages, Session, JSON
 Morgan Logger
 
-//
-Express Messages, Session, Connect Flash & Validation
-MongoDB & Mongoose
-Pug Templating
-Passport.js Authentication
-//
-
 Version
 1.0.0
 
